@@ -6,7 +6,6 @@ var Async = require('async');
 var MongoDB = require('mongodb');
 var Config = require('./config');
 
-
 // Declare internals
 
 var internals = {};
