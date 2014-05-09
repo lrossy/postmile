@@ -1,0 +1,40 @@
+{
+  "name": "postmile",
+  "description": "Collaborative list making server",
+  "version": "1.0.2",
+  "author": "Eran Hammer <eran@hueniverse.com> (http://hueniverse.com)",
+  "contributors": [
+    "Lance Welsh <lance@lwelsh.com>"
+  ],
+  "repository": "git://github.com/hueniverse/postmile",
+  "main": "index",
+  "keywords": [
+    "list",
+    "social",
+    "service",
+    "api",
+    "collaboration"
+  ],
+  "engines": {
+    "node": ">=0.10.22"
+  },
+  "dependencies": {
+    "postmile-api": "1.x.x",
+    "postmile-web": "1.x.x",
+    "hapi": "3.x.x",
+    "hoek": "1.x.x",
+    "async": "0.2.x",
+    "mongodb": "0.9.x",
+    "cryptiles": "2.x.x"
+  },
+  "devDependencies": {
+  },
+  "scripts": {
+  },
+  "licenses": [
+    {
+      "type": "BSD",
+      "url": "http://github.com/hueniverse/postmile/raw/master/LICENSE"
+    }
+  ]
+}
